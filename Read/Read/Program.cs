@@ -4,17 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTypes
+namespace Read
 {
     class Program
     {
         static void Main(string[] args)
         {
-            short a = 2;
-            Console.WriteLine(a);
-            System.Int16 b = 2;
-            Console.WriteLine(a);
-            
+            string name;
+            Console.WriteLine("Введите своё имя:");
+            name = Console.ReadLine();
+            Console.WriteLine("Привет, " + name + "!");
         }
     }
 }
