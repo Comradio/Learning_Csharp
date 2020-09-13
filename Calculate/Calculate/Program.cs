@@ -13,9 +13,12 @@ namespace Calculate
             float a, b, result;
             string act = "" ;
 
+            Console.WriteLine("Введите первое число: ");
             a = float.Parse(Console.ReadLine());
-            ConsoleKey consoleKey = Console.ReadKey().Key;
 
+            Console.WriteLine("Выберите действие: +, -, *, /");
+            ConsoleKey consoleKey = Console.ReadKey().Key;
+                        
             switch (consoleKey)
             {
                 case ConsoleKey.Multiply:
@@ -35,6 +38,7 @@ namespace Calculate
             }
 
             Console.WriteLine();
+            Console.WriteLine("Введите второе число: ");
             b = float.Parse(Console.ReadLine());
 
             switch (act)
@@ -52,10 +56,19 @@ namespace Calculate
                     Console.WriteLine("Результат: " + result);
                     break;
                 case "/":
-                    result = a / b;
-                    Console.WriteLine("Результат: " + result);
+                    if (b == 0)
+                    {
+                        Console.WriteLine("На ноль делить здесь не положено!");
+                        result = 0;
+                    }
+                    else
+                    {
+                        result = a / b;
+                        Console.WriteLine("Результат: " + result);
+                    }
                     break;
                 default:
+                    Console.WriteLine("Была введена неверная операция!");
                     break;
             }
         }
