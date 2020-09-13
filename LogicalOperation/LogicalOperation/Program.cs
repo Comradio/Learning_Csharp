@@ -10,15 +10,15 @@ namespace LogicalOperation
     class Program
     {
         
-            public static bool GetTemperature()
-            {
-                return true;
-            }
+        public static bool GetTemperature()
+        {
+            return true;
+        }
 
-            public static bool GetCoolingStatus()
-            {
-                return true;
-            }
+        public static bool GetCoolingStatus()
+        {
+            return true;
+        }
 
         static void Main(string[] args)
         {
