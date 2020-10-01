@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedded cycles", "Embedded cycles\Embedded cycles.csproj", "{5AA413D9-618D-4F3B-A5F8-6D1ED38966FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle\Rectangle.csproj", "{314D7E12-9523-421C-8298-15F68CC6834D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA413D9-618D-4F3B-A5F8-6D1ED38966FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA413D9-618D-4F3B-A5F8-6D1ED38966FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA413D9-618D-4F3B-A5F8-6D1ED38966FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA413D9-618D-4F3B-A5F8-6D1ED38966FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314D7E12-9523-421C-8298-15F68CC6834D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314D7E12-9523-421C-8298-15F68CC6834D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314D7E12-9523-421C-8298-15F68CC6834D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314D7E12-9523-421C-8298-15F68CC6834D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A620887A-5132-4C17-A91F-89348DC50030}
+	EndGlobalSection
+EndGlobal
