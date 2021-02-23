@@ -13,7 +13,7 @@ namespace WriteArray
             int[] myArray = { 10, 3, 2, 55 };
             int[] myArray1 = new int[5];
             int sum = 0;
-            int least = 0;
+            int least;
 
             for (int i = 0; i < myArray.Length; i++)
             {
@@ -40,6 +40,7 @@ namespace WriteArray
             }
             Console.WriteLine("Сумма чётных элементов: {0} ", sum);
 
+            least = myArray1[0];
             // Найти наименьшее число в массиве
             for (int i = 0; i < myArray1.Length; i++)
             {
