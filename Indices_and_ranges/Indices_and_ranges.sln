@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indices_and_ranges", "Indices_and_ranges\Indices_and_ranges.csproj", "{DEC20D83-3AF4-4076-8A4E-45799F0335E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC20D83-3AF4-4076-8A4E-45799F0335E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC20D83-3AF4-4076-8A4E-45799F0335E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC20D83-3AF4-4076-8A4E-45799F0335E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC20D83-3AF4-4076-8A4E-45799F0335E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E565DB4-C2AE-4398-9E1B-35D2F3C15D31}
+	EndGlobalSection
+EndGlobal
