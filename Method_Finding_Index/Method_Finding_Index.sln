@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method_Finding_Index", "Method_Finding_Index\Method_Finding_Index.csproj", "{2319546F-DA13-45E7-AE5B-D04CA6EB96E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2319546F-DA13-45E7-AE5B-D04CA6EB96E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2319546F-DA13-45E7-AE5B-D04CA6EB96E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2319546F-DA13-45E7-AE5B-D04CA6EB96E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2319546F-DA13-45E7-AE5B-D04CA6EB96E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A9F4EC6-E70D-4966-86FE-3A5160D4C389}
+	EndGlobalSection
+EndGlobal
